@@ -4,6 +4,46 @@ https://www.archives.gov/research/jfk/release-2025
 Although the documents were ordered to not be redacted, the released versions were not text searchable. The contents of this repository
 are text-searchable versions of those PDFs as well as selected NLP/ML analysis of those documents.
 
+![GephiDesktop3](./README_md_files/GephiDesktop3.png)
+
+# Visualizations
+
+There are many ways to view and search in this data. Most immediately,
+there are pregenerated visualizations hosted here:
+- https://s7ephen.com/JFK2025
+
+![JFK_screenrecord](./README_md_files/JFK_Viz_Screenrecord_fast.gif)
+
+## Download and view with Gephi Desktop
+You can view, search and manipulate the graphs using your own computer (offline) by:
+- Installing [Gephi Desktop (free)](https://gephi.org) 
+- Then download this [this directory](./graphs) and open the `.gefx`, `.gml`, or `.graphml` files. (there are a number of pregenerated graphs in that directory based on filesize (quantity of nodes).
+
+It will give you graphs like this:
+![GephiDesktop](./README_md_files/GephiDesktop.png)
+![GephiDesktop2](./README_md_files/GephiDesktop2.png)
+![GephiDesktop3](./README_md_files/GephiDesktop3.png)
+
+## Use Gephi's Web-based viewer
+If you dont want to install any software Gephi offers a [lightweight web-viewer here](http://gephi.org/gephi-lite/) Just:
+- Download [this directory](./graphs) and upload the `.graphml` file you want to start viewing and querying.
+
+It will give you graphs like this:
+![GephiWebbased](./README_md_files/GephiLite_webbased.png)
+![GephiWebbased2](./README_md_files/GephiLite_webbased2.png)
+![GephiWebbased3](./README_md_files/GephiLite_webbased3.png)
+
+## Use the pregenerated Web-Graphs:
+The same visualizations hosted here:  
+are also in this repository, so you can:
+- download [this directory](./pregenerated_web_graphs)
+- view it by serving the directory using your existing webserver or `python3 -m http.server` or `python2 -m SimpleHTTPServer`
+- or if you dont have python you can use [Seacrane](https://github.com/s7ephen/seacrane)'s [http server](https://github.com/s7ephen/seacrane/wiki#share-a-directory-via-http-httpdir)
+
+You will get visualizations like this:
+![PregeneratedWebGraphs](./README_md_files/PregeneratedWebGraphs.png)
+![PregeneratedWebGraphs2](./README_md_files/PregeneratedWebGraphs2.png)
+![PregeneratedWebGraphs3](./README_md_files/PregeneratedWebGraphs3.png)
 
 # More info
 See tweet: TBD
@@ -34,7 +74,7 @@ So, TL;DR: This repo is a place for *some* of the post-processed output (and ana
 |`*.proper_nouns.txt`| Proper nouns extracted from the PDF, this includes Organization abbreviations, or algorithmic guesses at any of these.|
 |`*.proper_nouns_with_popularity_count.json` | All the proper nouns sorted uniquely with their number of occurences in the document.|
 |`*.proper_nouns_normalized_popularity_count.json` | Proper nouns "normalized" algorithmically (removing case, punctuation, and calculating "string sameness" (Levenstein distance, et al)) and then sorted for popularity. E.G. `"E. Howard Hunt"` becomes equal to `"howard hunt, e"`
-|`global_propernoun_list_with_popularities.json`| All proper nouns extracted from all the documents, normalized, and sorted by popularity with occurence counts.|
+|`normalized_global_propernoun_list_with_popularities_sorted.json`| All proper nouns extracted from all the documents, normalized, and sorted by popularity with occurence counts.|
 | `JFKFiles_March2025.gefx` | Graph database for viz and search |
 
 
