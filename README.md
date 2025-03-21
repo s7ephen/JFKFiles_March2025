@@ -4,10 +4,14 @@ https://www.archives.gov/research/jfk/release-2025
 Although the documents were ordered to not be redacted, the released versions were not text searchable. The contents of this repository
 are text-searchable versions of those PDFs as well as selected NLP/ML analysis of those documents.
 
-![GephiDesktop3](./README_md_files/GephiDesktop3.png)
-
 ## TL;DR
 So, TL;DR: This repo is a place for *some* of the post-processed output (and analysis) of the JFK documents, which includes the text searchable PDFs.
+
+- Viz is here: https://s7ephen.com/JFK_2025
+- Text-Searchable [JFK2025 PDFs here](./0318) 
+- Jump down to [More Info](#more-info) for how all this stuff was generated.
+
+![GephiDesktop3](./README_md_files/GephiDesktop3.png)
 
 # Visualizations
 
@@ -17,7 +21,7 @@ there are pregenerated visualizations hosted here:
 
 ![JFK_screenrecord](./README_md_files/JFK_Viz_Screenrecord_fast.gif)
 
-## Download and view with Gephi Desktop
+## 1. Download and view with Gephi Desktop
 You can view, search and manipulate the graphs using your own computer (offline) by:
 - Installing [Gephi Desktop (free)](https://gephi.org) 
 - Then download this [this directory](./graphs) and open the `.gefx`, `.gml`, or `.graphml` files. (there are a number of pregenerated graphs in that directory based on filesize (quantity of nodes).
@@ -27,7 +31,7 @@ It will give you graphs like this:
 ![GephiDesktop2](./README_md_files/GephiDesktop2.png)
 ![GephiDesktop3](./README_md_files/GephiDesktop3.png)
 
-## Use Gephi's Web-based viewer
+## 2. Use Gephi's Web-based viewer
 If you dont want to install any software Gephi offers a [lightweight web-viewer here](http://gephi.org/gephi-lite/) Just:
 - Download [this directory](./graphs) and upload the `.graphml` file you want to start viewing and querying.
 
@@ -36,7 +40,7 @@ It will give you graphs like this:
 ![GephiWebbased2](./README_md_files/GephiLite_webbased2.png)
 ![GephiWebbased3](./README_md_files/GephiLite_webbased3.png)
 
-## Use the pregenerated Web-Graphs:
+## 3. Use the pregenerated Web-Graphs:
 The same visualizations hosted here:  
 are also in this repository, so you can:
 - download [this directory](./pregenerated_web_graphs)
