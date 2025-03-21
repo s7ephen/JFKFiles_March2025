@@ -16,7 +16,7 @@ So, TL;DR: This repo is a place for *some* of the post-processed output (and ana
 # Visualizations
 
 There are many ways to view and search in this data. Most immediately,
-there are pregenerated visualizations hosted here: https://s7ephen.com/JFK_2025
+there are pregenerated visualizations hosted here:
 - https://s7ephen.com/JFK_2025
 
 ![JFK_screenrecord](./README_md_files/JFK_Viz_Screenrecord_fast.gif)
@@ -41,8 +41,7 @@ It will give you graphs like this:
 ![GephiWebbased3](./README_md_files/GephiLite_webbased3.png)
 
 ## 3. Use the pregenerated Web-Graphs:
-The same visualizations hosted here:  
-are also in this repository, so you can:
+The same visualizations hosted here: https://s7ephen.com/JFK_2025 are also in this repository, so you can:
 - download [this directory](./pregenerated_web_graphs)
 - view it by serving the directory using your existing webserver or `python3 -m http.server` or `python2 -m SimpleHTTPServer`
 - or if you dont have python you can use [Seacrane](https://github.com/s7ephen/seacrane)'s [http server](https://github.com/s7ephen/seacrane/wiki#share-a-directory-via-http-httpdir)
