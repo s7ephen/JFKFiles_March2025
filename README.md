@@ -9,7 +9,7 @@ are text-searchable versions of those PDFs as well as selected NLP/ML analysis o
 See tweet: TBD
 
 For the last few years (to assist my research) I have been writing a custom "quasi-AI" (NLP/ML) software tool that analzes and finds connections in historical documents (mostly books, but also audio and video).
-I have not shared this tool publicly (nicknamed "Abulafia"), but have shared some smaller precursor pieces of it, for example:
+I have not shared this tool publicly (temporarily nicknamed ["Abulafia"](https://en.wikipedia.org/wiki/Foucault%27s_Pendulum#Plot_summary)), but have shared some smaller precursor pieces of it, for example:
 - GoalPost https://github.com/s7ephen/goalpost
 - https://github.com/s7ephen/bookmark2screenshot
 - https://github.com/s7ephen/calibreweb_dockerizer
