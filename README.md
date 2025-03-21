@@ -28,8 +28,16 @@ Abulafia tries to make connections to things "outside" the scope of these docume
 So, TL;DR: This repo is a place for *some* of the post-processed output (and analysis) of the JFK documents, which includes the text searchable PDFs.
 
 # Files here:
-Relative to a archives.gov mirror, here's what is in this repo:
+|File pattern or name | Description | 
+|-|-|
+|`*_ocr.pdf`| Text searchable version of file by the same name (sans "_ocr") from Archives.gov E.G. [104-10173-10132_ocr.pdf]("./0318/104-10173-10132_ocr.pdf") corresponds to [104-10173-10132.pdf (on Archives.gov)]("https://www.archives.gov/files/research/jfk/releases/2025/0318/104-10173-10132.pdf") |
+|`*.proper_nouns.txt`| Proper nouns extracted from the PDF, this includes Organization abbreviations, or algorithmic guesses at any of these.|
+|`*.proper_nouns_with_popularity_count.json` | All the proper nouns sorted uniquely with their number of occurences in the document.|
+|`*.proper_nouns_normalized_popularity_count.json` | Proper nouns "normalized" algorithmically (removing case, punctuation, and calculating "string sameness" (Levenstein distance, et al)) and then sorted for popularity. E.G. `"E. Howard Hunt"` becomes equal to `"howard hunt, e"`
+|`global_propernoun_list_with_popularities.json`| All proper nouns extracted from all the documents, normalized, and sorted by popularity with occurence counts.|
+| `JFKFiles_March2025.gefx` | Graph database for viz and search |
 
-## Whats here:
+
+## Whats here (relative to Archives.gov mirror):
 ![](README_md_files/JFK_files_dirtree.png)
 ![](README_md_files/OCR_FileCount.png)
