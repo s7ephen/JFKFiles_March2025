@@ -49,7 +49,7 @@ You will get visualizations like this:
 ![PregeneratedWebGraphs3](./README_md_files/PregeneratedWebGraphs3.png)
 
 # More info
-See tweet: TBD
+See tweet: https://x.com/s7ephen/status/1903160996731957279 
 
 For the last few years (to assist my research) I have been writing a custom "quasi-AI" (NLP/ML) software tool that analzes and finds connections in historical documents (mostly books, but also audio and video).
 I have not shared this tool publicly (temporarily nicknamed ["Abulafia"](https://en.wikipedia.org/wiki/Foucault%27s_Pendulum#Plot_summary)), but have shared some smaller precursor pieces of it, for example:
