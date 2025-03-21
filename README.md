@@ -6,11 +6,14 @@ are text-searchable versions of those PDFs as well as selected NLP/ML analysis o
 
 ![GephiDesktop3](./README_md_files/GephiDesktop3.png)
 
+## TL;DR
+So, TL;DR: This repo is a place for *some* of the post-processed output (and analysis) of the JFK documents, which includes the text searchable PDFs.
+
 # Visualizations
 
 There are many ways to view and search in this data. Most immediately,
 there are pregenerated visualizations hosted here:
-- https://s7ephen.com/JFK2025
+- https://s7ephen.com/JFK_2025
 
 ![JFK_screenrecord](./README_md_files/JFK_Viz_Screenrecord_fast.gif)
 
@@ -62,10 +65,8 @@ Some of that "post-processing" include the text-searchable OCR'd version of the 
 - They were then fed to Abulafia.
 - After ~30 hours of processing, some of Abulafia's output was shared here.
 
-Abulafia tries to make connections to things "outside" the scope of these documents, so handpicked stuff will be placed in this public repo.
+Abulafia tries to make connections to things "outside" the scope of these documents (in my personal research vault), so manually handpicked stuff will be placed in this public repo.
 
-## TL;DR
-So, TL;DR: This repo is a place for *some* of the post-processed output (and analysis) of the JFK documents, which includes the text searchable PDFs.
 
 # Files here:
 |File pattern or name | Description | 
